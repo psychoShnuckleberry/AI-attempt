@@ -1,0 +1,154 @@
+#include <iostream>
+using namespace std;
+
+class everything;
+class nothing;
+class something;
+class it;
+class all;
+class does;
+class is;
+class to;
+class tomorrow;
+class again;
+class and1;
+class anything;
+class bad;
+class big;
+class compilerclass;
+class bad2;
+
+int main()
+{
+    cout << "Hello world!" << endl;
+    return 0;
+
+    class everything {
+        nothing(); something(); it(); all(); does(); is(); to(); tomorrow(); again(); and1(); anything(); bad(); big(); compilerclass();
+        everything(is(all()));
+        everything(to(all());
+        everything();
+        everything(does(anything()));
+        is();
+        is(again(everything()));
+        everything(big(something()));
+    };
+
+    class nothing{
+        nothing(is());
+        it();
+        is(again());
+        again(and1(again()));
+
+
+    };
+
+    class something{
+        nothing(everything());
+        something(big(nothing()));
+        it(it(something(it())));
+
+    };
+
+    class it {
+        it();
+        all(does(it()));
+        does(does());
+        it(and1(does(does(it()))));
+        again(does());
+        all();
+        and1(again(again()));
+        again(again());
+        all(is(anything(everything(and1())));
+        bad(bad(and1())); bad(and1(bad(and1()))); is();
+        all(to(and1(is(it()))));
+        again(bad(is(anything())));
+        something(is(nothing(everything(is(nothing(anything(is(everything()))))))));
+        it();
+        class bad2{
+            it(); anything();
+        };
+        bad(is(to(it(big()))));
+        it(again(does()));
+        it(it(nothing()));
+        and1(it());
+        again();
+    };
+
+    class all{
+        it();
+        it(again(and1(is())));
+        all(it(to(again(and1()))));
+        everything(is(all()));
+        everything(to(all());
+        everything();
+        everything(does(anything()));
+        is();
+    };
+
+    class does {
+        all(is(it()));
+        again();
+        and1();
+    };
+
+    class is {
+        is(it(is(and1())));
+        again();
+        again(is(is(everything())));
+        and1();
+    };
+
+    class to {
+        to(it(everything(is(and1()))));
+        is(to(all());
+        to(all(is(it())));
+    };
+
+    class tomorrow {
+        it(is(all()));
+
+    };
+
+    class again{
+        it(); it(it()); it(it(it()));
+        bad(anything(compilerclass()));
+        it(and1(again()));
+        again(it(again(it(is()))));
+    };
+
+    class and1{
+        and1(it());
+        again();
+        and1(and1(does(it())));
+    };
+
+    class anything{
+        anything(and1(everything(again(does()))));
+        anything(is(it(tomorrow()));
+
+    };
+
+    class bad{
+        bad(is(to(it(big()))));
+        it(again(does()));
+        it(it(nothing()));
+        and1(it());
+
+    };
+
+    class big{
+        all(nothing(nothing()));
+        big(does(nothing()));
+        nothing(big());
+        again(big(is(is())));
+
+    };
+
+    class compilerclass{
+        compilerclass compiler1;
+        compilerclass(it(compiler1()));
+        it(big());
+        big(bad(it()));
+    };
+}
